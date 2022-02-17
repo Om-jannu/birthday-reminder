@@ -1,11 +1,18 @@
-import React from "react";
-import home from "./components/Home";
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import React from "react"
+import { Route, Router, Routes } from "react-router-dom";
+import Empbirthday from "./components/Empbirthday";
+import Empdetails from "./components/Empdetails";
+import Home from "./components/Home";
+import Error from "./components/Error";
+// import { BrowserRouter as Router,Routes, Route} from "react-router-dom";
 const App = () => {
   return (
-    <Router>
-      <Route path="/" element={home}/>
-    </Router>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='empdetails' element={<Empdetails/>}/>
+        <Route path='empbirthday' element={<Empbirthday/>}/>
+        <Route path="*" element={<Error/>}/>
+      </Routes>
   );
 };
 
