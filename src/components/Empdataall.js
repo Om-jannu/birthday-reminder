@@ -4,7 +4,7 @@ const Empdataall = ({employee}) => {
   return employee.map((item)=>{
     const{id,name,dob,gender,image}= item;
     return(
-        <div key={id} >
+        <div key={id}>
             <img src={image} alt={name} />
             <div>
                 <h3>Name : {name}</h3>
