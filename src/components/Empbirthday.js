@@ -14,7 +14,7 @@ const Empbirthday = () => {
         <Link className='link' to="/">home</Link>
       </div>      
       <div className="linkbox">
-        <Link className='link' to = "/thismonthbday">Bday this month</Link>
+        <Link className='link' to = "/thismonthbday">Birthday's this month</Link>
       </div>
     </div>
     
