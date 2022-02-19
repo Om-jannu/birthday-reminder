@@ -2,10 +2,10 @@ import React from 'react'
 
 const Error = () => {
   return (
-    <div>
-        <h1>error page</h1>
+      <div className='container'>
+        <h1>page not found</h1>
     </div>
   )
 }
 
-export default Error
+export default Error;

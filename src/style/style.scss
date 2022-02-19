@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Indie+Flower&family=Lora:wght@400;500;600&family=Love+Light&family=Moon+Dance&family=Roboto+Slab&family=Rowdies&family=Source+Sans+Pro:wght@300&family=Syne+Tactile&family=Titillium+Web&family=Vujahday+Script&display=swap');
+
+@mixin align($textalign,$alignitems,$justifycont){
+    text-align: $textalign;
+    align-items: $alignitems;
+    justify-content: $justifycont;
+}
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bungee', cursive;
+    // font-family: 'Lora', serif;
+    // font-family: 'Roboto Slab', serif;
+    // font-family: 'Rowdies', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    // background-color: aqua;
+    @include align(center,center ,center );
+    min-height: 100vh;
+    display: flex;
+    background-color: aquamarine;
+
+
+}
+.container{
+    font-family: 'Bungee', cursive;
+    background-color: aqua;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
