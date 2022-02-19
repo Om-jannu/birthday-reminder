@@ -7,10 +7,17 @@ import Todaybirthday from './Todaybirthday.js';
 const Empbirthday = () => {
   return (
     <>
-    <div>Empbirthday</div>
-    <Todaybirthday employee={empdata}/>
-    <Link to="/">home</Link>
-    <Link to = "/thismonthbday">Bday this month</Link>
+    <div className="container">
+      <h1>Today Birthdays</h1>
+      <Todaybirthday employee={empdata}/>
+      <div className="linkbox">
+        <Link className='link' to="/">home</Link>
+      </div>      
+      <div className="linkbox">
+        <Link className='link' to = "/thismonthbday">Bday this month</Link>
+      </div>
+    </div>
+    
     </>
   )
 }

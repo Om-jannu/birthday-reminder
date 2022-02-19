@@ -7,7 +7,6 @@ const empdata = [
     dob: '31 January',
     mob:'January',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -16,7 +15,6 @@ const empdata = [
     dob: '3 January',
     mob:'January',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -25,7 +23,6 @@ const empdata = [
     dob: '26 January',
     mob:'January',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -34,7 +31,6 @@ const empdata = [
     dob: '7 February',
     mob:'February',
     gender:'Female',
-    age:20,
     image:`${womanavatar}`
 },
 {
@@ -43,7 +39,6 @@ const empdata = [
     dob: '17 February',
     mob:'February',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -52,7 +47,6 @@ const empdata = [
     dob: '19 February',
     mob:'February',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -61,7 +55,6 @@ const empdata = [
     dob: '28 February',
     mob:'February',
     gender:'Female',
-    age:20,
     image:`${womanavatar}`
 },
 {
@@ -70,7 +63,6 @@ const empdata = [
     dob: '8 March',
     mob:'March',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -79,7 +71,6 @@ const empdata = [
     dob: '04 March',
     mob:'March',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -88,7 +79,6 @@ const empdata = [
     dob: '21 April',
     mob:'April',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -97,7 +87,6 @@ const empdata = [
     dob: '29 April',
     mob:'April',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -106,7 +95,6 @@ const empdata = [
     dob: '18 July',
     mob:'July',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -115,7 +103,6 @@ const empdata = [
     dob: '04 August',
     mob:'August',
     gender:'Female',
-    age:20,
     image:`${womanavatar}`
 },
 {
@@ -124,7 +111,6 @@ const empdata = [
     dob: '21 August',
     mob:'August',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -133,7 +119,6 @@ const empdata = [
     dob: '08 September',
     mob:'September',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -142,7 +127,6 @@ const empdata = [
     dob: '16 September',
     mob:'September',
     gender:'Female',
-    age:20,
     image:`${womanavatar}`
 },
 {
@@ -151,7 +135,6 @@ const empdata = [
     dob: '31 October',
     mob:'October',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -160,7 +143,6 @@ const empdata = [
     dob: '03 October',
     mob:'October',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -169,7 +151,6 @@ const empdata = [
     dob: '13 October',
     mob:'October',
     gender:'Female',
-    age:20,
     image:`${womanavatar}`
 },
 {
@@ -178,7 +159,6 @@ const empdata = [
     dob: '20 October',
     mob:'October',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -187,7 +167,6 @@ const empdata = [
     dob: '07 October',
     mob:'October',
     gender:'Female',
-    age:20,
     image:`${womanavatar}`
 },
 {
@@ -196,7 +175,6 @@ const empdata = [
     dob:'1 November',
     mob:'November',
     gender:'Male',
-    age:19,
     image:`${boyavatar}`
 },
 {
@@ -205,7 +183,6 @@ const empdata = [
     dob: '25 November',
     mob:'November',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
 },
 {
@@ -214,7 +191,6 @@ const empdata = [
     dob: '12 December',
     mob:'November',
     gender:'Female',
-    age:20,
     image:`${womanavatar}`
 },
 {
@@ -223,8 +199,55 @@ const empdata = [
     dob: '27 December',
     mob:'December',
     gender:'Male',
-    age:20,
     image:`${boyavatar}`
+},
+{
+    id:26,
+    name:'Samiksha Jannu',
+    dob: '08 March',
+    mob:'March',
+    gender:'Female',
+    image:`${womanavatar}`
+},
+{
+    id:27,
+    name:'Ritesh jannu',
+    dob: '26 february',
+    mob:'February',
+    gender:'Male',
+    image:`${boyavatar}`
+},
+{
+    id:28,
+    name:'Sainath Gouda',
+    dob: '16 May',
+    mob:'May',
+    gender:'Male',
+    image:`${boyavatar}`
+},
+{
+    id:29,
+    name:'Janhavi Pednekar',
+    dob: '7 June',
+    mob:'June',
+    gender:'female',
+    image:`${womanavatar}`
+},
+{
+    id:30,
+    name:'Prasanna Nambiar',
+    dob: '5 May',
+    mob:'May',
+    gender:'female',
+    image:`${womanavatar}`
+},
+{
+    id:31,
+    name:'Pallavi Mahadik',
+    dob: '27 June',
+    mob:'December',
+    gender:'female',
+    image:`${womanavatar}`
 },
 ]
 

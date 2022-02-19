@@ -5,10 +5,15 @@ import {Link} from "react-router-dom";
 
 const Empdetails = () => {
   return (
-    <div>
+    <div className='container'>
         <h1>All Birthdays</h1>
         <Empdataall employee={empdata}/>
-        <Link to="/">home</Link>
+        <div className="linkbox">
+          <Link className='link' to="/">home</Link>
+        </div>
+        <div className="linkbox">
+        <Link className='link' to="/empbirthday">Today Birthdays</Link>
+        </div>
     </div>
   )
 }

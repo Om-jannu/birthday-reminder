@@ -4,11 +4,16 @@ import {Link} from "react-router-dom";
 const home = () => {
   return (
     <>
-    <div>
-      <h1>home page</h1>
+    <div className="container">
+      <h1>Birthday Reminder</h1>
+      <div className="linkbox">
+      <Link className="link" to="/empdetails">All Birthdays</Link>
+      </div>
+      <div className="linkbox">
+      <Link className="link" to="/empbirthday">Today birthday's</Link>
+      </div>
     </div>
-    <Link to="/empdetails">employee details</Link>
-    <Link to="/empbirthday">today birthday</Link>
+    
     </>
   )
 }

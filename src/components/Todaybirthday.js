@@ -12,12 +12,22 @@ const Todaybirthday = ({employee}) => {
         let bdob = dob;
         if(actualdate===bdob){
             return(
-                <div key={id}>
-                    <img src= {image} alt= {name} />
-                    <h4>name : {name}</h4>
-                    <h4>Gender : {gender} </h4>
-                    <h4></h4>
+                // <div key={id} className >
+                //     <img src= {image} alt= {name} />
+                //     <h4>name : {name}</h4>
+                //     <h4>Gender : {gender} </h4>
+                //     <h4></h4>
+                // </div>
+    
+            <div className='singlepersonbox' key={id}>   
+                <img className='image' src={image} alt={name}/> 
+                <div className='persondetailbox'>
+                    <h3>Name : {name}</h3>
+                    <h3>DOB : {dob}</h3>
+                    <h3>Gender : {gender} </h3>
                 </div>
+            
+        </div>
             )
         }
     })

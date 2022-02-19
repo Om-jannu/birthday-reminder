@@ -5,13 +5,16 @@ import empdata from './empdata';
 
 const Thismonthbday = () => {
   return (
-    <>
-    <div>
+    <div className='container'>
       <h1>Birthday This Month</h1>
       <Bdaythismonth employee={empdata}/>
-      <Link to ="/empdetails">All birthdays</Link>
+      <div className="linkbox">
+          <Link className='link' to="/">home</Link>
+        </div>
+      <div className="linkbox">
+      <Link className='link' to ="/empdetails">All birthdays</Link>
+      </div>
     </div>
-    </>
   )
 }
 
