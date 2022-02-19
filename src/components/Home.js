@@ -5,7 +5,7 @@ const home = () => {
   return (
     <>
     <div className="container">
-      <h1>Birthday Reminder</h1>
+      <h1>Budday reminder</h1>
       <div className="linkbox">
       <Link className="link" to="/empdetails">All Birthdays</Link>
       </div>
