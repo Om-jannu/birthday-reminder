@@ -10,6 +10,7 @@ const Empbirthday = () => {
     <div className="container">
       <h1>Today Birthdays</h1>
       <Todaybirthday employee={empdata}/>
+      
       <div className="linkbox">
         <Link className='link' to="/">home</Link>
       </div>      

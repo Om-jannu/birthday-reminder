@@ -6,7 +6,7 @@ import empdata from './empdata';
 const Thismonthbday = () => {
   return (
     <div className='container'>
-      <h1>Birthday This Month</h1>
+      <h1>Birthday's This Month</h1>
       <Bdaythismonth employee={empdata}/>
       <div className="linkbox">
           <Link className='link' to="/">home</Link>
